@@ -28,7 +28,7 @@ const resources: Resource[] = await listResources();
 
 <Layout title="Welcome to Deno 🦕">
   <main>
-    <h1>Welcome to <span class="text-gradient">Deno 🦕</span></h1>
+    <h1><span class="text-gradient" hx-get="/api/hello">Hello Deno 🦕</span></h1>
     <div class="news-form">
       <p>
       Welcome to Deno! Add your own links and resources using the form below.
